@@ -12,7 +12,6 @@ I am Adaobi C Okoye, a Fullstack web developer. This portfolio contains my work 
   - [Contribution](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
-  - [Screenshots](#screenshots)
 
   ## Installation:
 
@@ -43,9 +42,6 @@ I am Adaobi C Okoye, a Fullstack web developer. This portfolio contains my work 
   
   The project is open-source
 
-  ## Screenshots
-  ![screenshot]()
-  
   ## Tests:
 
   no testing
