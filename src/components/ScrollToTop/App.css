@@ -1,0 +1,38 @@
+App {
+  text-align: center;
+  height: 5000px;
+}
+
+.scrollTop {
+  position: fixed; 
+  color: whitesmoke;
+  width: 10rem;
+  bottom: 20px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width:900px) {
+.scrollTop {
+  display: none;
+  position: unset; 
+}
+}
